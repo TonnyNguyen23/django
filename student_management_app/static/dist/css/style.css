@@ -1,0 +1,7 @@
+:root {
+    --bg-green-dark: #066e06;
+}
+
+.bg__sidebar {
+    background-color: var(--bg-green-dark) !important;
+}

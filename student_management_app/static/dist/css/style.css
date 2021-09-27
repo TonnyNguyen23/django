@@ -1,6 +1,8 @@
 :root {
   --bg-green-dark: #0b2306;
+  --text-blue-light: #2774c5;
 }
+
 
 .bg__sidebar {
   background-color: var(--bg-green-dark) !important;

@@ -16,16 +16,23 @@
   <link rel="stylesheet" href="{% static "plugins/icheck-bootstrap/icheck-bootstrap.min.css" %}">
   <!-- Theme style -->
   <link rel="stylesheet" href="{% static "dist/css/adminlte.min.css" %}">
+  
+  <!-- Theme style -->
+  <link rel="stylesheet" href="{% static "dist/css/style_login.css" %}">
+
   <!-- Google Font: Source Sans Pro -->
   <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700" rel="stylesheet">
 </head>
-<body class="hold-transition login-page">
-<div class="login-box">
-  <div class="login-logo">
-    <a href="../../index2.html"><b>Student</b> Management System</a>
+<body class="hold-transition">
+<div class="login-box w-100">
+  <div class="login-logo pointer--none d-flex bg-green justify-content-around">
+    <!-- <a href="../../index2.html"><b>Student</b> Management System</a> -->
+    <img src="{% static "dist/img/logo/logo1.png" %}" alt="Logo ĐH Đông Á">
+    <img src="{% static "dist/img/logo/logo2.png" %}" alt="Đại Học Đông Á">
+
   </div>
   <!-- /.login-logo -->
-  <div class="card">
+  <div class="card form">
       {% block content %}
       {% endblock content %}
     <!-- /.login-card-body -->

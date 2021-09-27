@@ -27,7 +27,7 @@
           <li class="nav-item">
             {% url 'student_home' as student_home %}
             <a href="{{ student_home }}" class="nav-link {% if request.path == student_home %} active {% endif %}">
-              <i class="nav-icon fas fa-th"></i>
+              <i class="nav-icon fas fa-home"></i>
               <p>
                 Home
               </p>
@@ -37,7 +37,7 @@
             {% url 'student_view_attendance' as student_view_attendance %}
             {% url 'student_view_attendance_post' as student_view_attendance_post %}
             <a href="{{ student_view_attendance }}" class="nav-link {% if request.path == student_view_attendance %} active {% endif %} {% if request.path == student_view_attendance_post %} active {% endif %}">
-              <i class="nav-icon fas fa-th"></i>
+              <i class="nav-icon fas fa-eye"></i>
               <p>
                 View Attendance
               </p>
@@ -46,7 +46,7 @@
            <li class="nav-item">
             {% url 'student_apply_leave' as student_apply_leave %}
             <a href="{{ student_apply_leave }}" class="nav-link {% if request.path == student_apply_leave %} active {% endif %}">
-              <i class="nav-icon fas fa-th"></i>
+              <i class="nav-icon fas fa-sign-out-alt"></i>
               <p>
                 Apply for Leave
               </p>
@@ -55,7 +55,7 @@
            <li class="nav-item">
             {% url 'student_feedback' as student_feedback %}
             <a href="{{ student_feedback }}" class="nav-link {% if request.path == student_feedback %} active {% endif %}">
-              <i class="nav-icon fas fa-th"></i>
+              <i class="nav-icon fas fa-comments"></i>
               <p>
                 Feedback Message
               </p>
@@ -64,7 +64,7 @@
           <li class="nav-item">
             {% url 'student_view_result' as student_view_result %}
             <a href="{{ student_view_result }}" class="nav-link {% if request.path == student_view_result %} active {% endif %}">
-              <i class="nav-icon fas fa-th"></i>
+              <i class="nav-icon fas fa-graduation-cap"></i>
               <p>
                 Grade Card
               </p>
@@ -73,7 +73,7 @@
           <li class="nav-item">
             {% url 'student_all_notification' as student_all_notification %}
             <a href="{{ student_all_notification }}" class="nav-link {% if request.path == student_all_notification %} active {% endif %}">
-              <i class="nav-icon fas fa-th"></i>
+              <i class="nav-icon fas fa-comment-dots"></i>
               <p>
                 Notifications
               </p>

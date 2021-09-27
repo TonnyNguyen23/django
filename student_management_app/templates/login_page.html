@@ -25,15 +25,15 @@
 </head>
 <body class="hold-transition">
 <div class="login-box w-100">
-  <div class="login-logo bg-green">
+  <div class="login-logo bg-green mb-5">
     <div class="container">
       <div class="row text-left">
         <div class="col-4">
           <!-- <a href="../../index2.html"><b>Student</b> Management System</a> -->
-          <a href=""><img src="{% static "dist/img/logo/logo1.png" %}" alt="Logo ĐH Đông Á"></a>
+          <a href="/"><img src="{% static "dist/img/logo/logo1.png" %}" alt="Logo ĐH Đông Á"></a>
         </div>
         <div class="col-8">
-          <a href=""><img src="{% static "dist/img/logo/logo2.png" %}" alt="Đại Học Đông Á"></a>
+          <a href="/"><img src="{% static "dist/img/logo/logo2.png" %}" alt="Đại Học Đông Á"></a>
         </div>
       </div>
     </div>
@@ -65,22 +65,25 @@
                 <div class="g-recaptcha" data-sitekey="6LeWtqUZAAAAAMO6YmxX5_XWel9hLWrb_iEiff26"></div>
         </div>
         <div class="row">
-          <!-- /.col -->
           <div class="col-12">
             <button type="submit" class="btn btn-primary btn-block bg-green" >Sign In</button>
-          </div><!-- /.col -->
-           <!-- <div class="col-12 text-center">
-             <a href="{% url 'password_reset' %}">Reset Password</a>
-          </div>/.col -->
-            <!-- <div class="col-12 text-center">
-             <a href="{% url 'signup_admin' %}">Admin Signup FOR TESTING</a>
-          </div>/.col -->
-                        <!-- <div class="col-12 text-center">
-             <a href="{% url 'signup_staff' %}">Staff Signup FOR TESTING</a>
-          </div>/.col -->
-                                    <!-- <div class="col-12 text-center">
-             <a href="{% url 'signup_student' %}">Student Signup FOR TESTING</a>
-          </div>/.col -->
+          </div>
+          <div class="col-12 text-center pt-2">
+             <a class="text-anchor" href="{% url 'password_reset' %}">Reset Password</a>
+          </div>
+
+          <!-- 
+            <div class="col-12 text-center pt-1">
+              <a class="text-anchor" href="{% url 'signup_admin' %}">Admin Signup FOR TESTING</a>
+            </div>
+            <div class="col-12 text-center pt-1">
+              <a class="text-anchor" href="{% url 'signup_staff' %}">Staff Signup FOR TESTING</a>
+            </div>
+            <div class="col-12 text-center pt-1">
+              <a class="text-anchor" href="{% url 'signup_student' %}">Student Signup FOR TESTING</a>
+            </div>
+           -->
+
         </div>
         <div class="row">
           {% if messages %}

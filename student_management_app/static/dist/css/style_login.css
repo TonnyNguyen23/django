@@ -1,6 +1,16 @@
 :root {
   --bg-green-dark: #066e06;
+  --text-blue-light: #2774c5;
 }
+
+.text-anchor {
+  transition: .3s;
+  color: var(--text-blue-light);
+}
+.text-anchor:hover {
+  color: var(--bg-green-dark);
+}
+
 
 .pointer--none {
   pointer-events: none !important;

@@ -15,8 +15,14 @@
   border-radius: 4px;
   color: white !important;
 }
-.btn__light {
-  background: #9c9c9c;
-  border-radius: 4px;
+
+.errorlist {
+  color:  red !important;
+}
+.nav-link.text-dark.bg-white.rounded.btn__hover {
+  transition: 0.3s;
+}
+.nav-link.text-dark.bg-white.rounded.btn__hover:hover{
   color: white !important;
+  background: #176429 !important;
 }

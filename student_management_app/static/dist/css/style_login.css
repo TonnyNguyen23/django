@@ -34,3 +34,7 @@
 .icon-color {
   color: #92c379 !important;
 }
+
+.align--left {
+  text-align: left !important;
+}

@@ -1,5 +1,5 @@
 :root {
-  --bg-green-dark: #066e06;
+  --bg-green-dark: #0b2306;
 }
 
 .bg__sidebar {
@@ -8,4 +8,15 @@
 
 .pointer--none {
   pointer-events: none !important;
+}
+
+.btn__primary {
+  background: #28a745;
+  border-radius: 4px;
+  color: white !important;
+}
+.btn__light {
+  background: #9c9c9c;
+  border-radius: 4px;
+  color: white !important;
 }

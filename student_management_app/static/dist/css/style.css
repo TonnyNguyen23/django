@@ -1,7 +1,11 @@
 :root {
-    --bg-green-dark: #066e06;
+  --bg-green-dark: #066e06;
 }
 
 .bg__sidebar {
-    background-color: var(--bg-green-dark) !important;
+  background-color: var(--bg-green-dark) !important;
+}
+
+.pointer--none {
+  pointer-events: none !important;
 }
